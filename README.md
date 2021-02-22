@@ -3,7 +3,7 @@ This is my solution for what Snapp team defined in this [task](https://github.co
 
 I developed this by Go language and using PostgreSQL as database.
 
-To run this you should create a table in the PostgreSQL using following script:
+To run this you should create a database named "snapp", then create a table in the "snapp" using following script:
 ```
 CREATE SEQUENCE queries_id_seq;
 
