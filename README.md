@@ -19,9 +19,9 @@ OWNED BY queries.id;
 ## How to use it
 Send a search query to this service using the following REST API:
 ```
-http://localhost:8585/index-search-query?query=.Please,%20email%20john.doe@foo.com%20by%2003-09,%20re:%20m37-xq.
+http://localhost:8585/index-search-query?query=.Please, email john.doe@foo.com by 03-09, re: m37-xq.
 ```
 and use the following REST API for get the N Top queries in the h hours ago:
 ```
-localhost:8585/return-queries?hour=1&count=100
+http://localhost:8585/return-queries?hour=1&count=100
 ```
